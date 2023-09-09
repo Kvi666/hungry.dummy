@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.brand {
+    
+}
+
+.navbaritems {
+    font-weight: bold;
+    margin: 0 3rem 0 0;
+    
+}
+
+.navbaritems a {
+    color: rgb(145, 145, 145);
+}
+.navbaritems a:hover {
+    color: rgb(253, 154, 24);
+}
+
+#hom {
+    background-image:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../images/bg.jpg);
+	/* height: 60vh; */
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+
+h1 {
+    color: rgb(255, 255, 255) !important;
+    padding: 0 0 0 0 !important;
+    font-family: 'Signika', sans-serif;
+}
+
+h2 {
+    font-family:'Signika', sans-serif;
+}
+
+h5 {
+    font-family:'Signika', sans-serif;
+}
+
+
+
+.pwel {
+    text-align: justify;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+  }
+
+
+/* services */
+
+.service-item {
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1); 
+    border-radius: 10%;
+}
+
+.service-item:hover {
+    scale: 1.05;
+    transition-duration: 70ms;
+    box-shadow: 5px 4px 29px 17px rgba(0,0,0,0.1);   
+}
+
+.service-des {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+/* abtus */
+
+.section-title {
+    font-family: 'Courgette', cursive;
+}
+
+.about-p {
+    text-align: justify;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+
+span {
+    font-family: 'Signika', sans-serif;
+
+}
+
+
+/* menu */
+
+
+
+
+/* team  */
+
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-item:hover {
+    height: 100%;
+}
+
+.team-item .btn {
+    border-radius: 38px 38px 0 0;
+}
+
+
+
+
+/* footer  */
+
+.socials {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding: 0 0 20px 20px;
+  }
+  
+  .socials img {
+    width: 35px;
+  }
+  
+  .socials img:hover {
+    scale: 1.2;
+    transition-duration: 80ms;
+  }
+
+
+
+
+  /* spin  */
+
+  @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .spin {
+    animation-name: spinning;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+
+  .reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
