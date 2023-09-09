@@ -9,7 +9,7 @@ $(window).scroll(function () {
 
 // on screen
 
-window.addEventListener("scroll", reveal);
+window.addEventListener("load", reveal);
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
