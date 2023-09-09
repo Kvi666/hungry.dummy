@@ -7,7 +7,18 @@ $(window).scroll(function () {
   }
 });
 
-// on screen
+
+const button = document.getElementById(".reveal");
+const animatedElement = document.querySelector(".reveal");
+
+button.addEventListener("click", () => {
+  animatedElement.style.opacity = 1;
+});
+
+
+
+
+on screen
 
 window.addEventListener("load", reveal);
 
