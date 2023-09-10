@@ -150,13 +150,13 @@ span {
   }
   .spin {
     animation-name: spinning;
-    animation-duration: 25s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
 
 
-  @keyframes reveal {
+  /* @keyframes reveal {
     from {transform: translateY(50px) ; opacity: 0;}
     to {transform: translateY(0); opacity: 100;}
   }
@@ -165,4 +165,17 @@ span {
     animation-name: reveal;
     animation-duration: 1s;
     animation-timing-function: ease;
+  } */
+
+
+  /* .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
   }
+
+  .reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+  } */
